@@ -6,18 +6,16 @@
   <test name="Parallel_Chrome">
 	  <parameter name="browserName" value="CHROME"></parameter>
 	  <parameter name="fileName" value="App.properties"></parameter>
-		   
 	   <packages>
-		      <package name="com.tests.demoqa"/>
+	      <package name="com.tests.demoqa"/>
 	   </packages>
   </test> <!-- Parallel -->
   
   <test name="Parallel_FireFox">
 	  <parameter name="browserName" value="FIREFOX"></parameter>
 	  <parameter name="fileName" value="App.properties"></parameter>
-
 	   <packages>
-		      <package name="com.tests.demoqa"/>
+	      <package name="com.tests.demoqa"/>
 	   </packages>
   </test> <!-- Parallel -->
 
