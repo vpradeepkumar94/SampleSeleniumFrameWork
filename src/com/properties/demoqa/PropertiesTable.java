@@ -23,7 +23,6 @@ public class PropertiesTable {
 
 			property.load(reader);
 			value = property.getProperty(key, "No such key  found");
-
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
 		}
@@ -42,7 +41,6 @@ public class PropertiesTable {
 
 			property.setProperty(key, value.toString());
 			property.store(writer, "Successfully Added");
-
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
 		}
