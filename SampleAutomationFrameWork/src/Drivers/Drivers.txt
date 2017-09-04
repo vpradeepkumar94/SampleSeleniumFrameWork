@@ -1,0 +1,9 @@
+Place all th required drivers  under this folder.
+
+Use the following naming conventions when naming a driver file
+
+driverName_versionNumbe.format
+*******************************
+
+eg: - chromeDriver_v29.0.exe;
+eg:-  fireFoxDrive_v14.1.exe

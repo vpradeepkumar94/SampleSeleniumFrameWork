@@ -1,0 +1,1 @@
+IF any screnshots are taken,then they will be stored under this folder with time stamp
