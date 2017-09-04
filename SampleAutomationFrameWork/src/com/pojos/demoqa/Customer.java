@@ -14,7 +14,7 @@ public class Customer {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public void setAge(int age) {
+	public void setAge(int age) { 
 		this.age = age;
 	}
 	public void setGender(String gender) {
@@ -30,11 +30,6 @@ public class Customer {
 		this.hasVoterId = hasVoterId;
 	}
 
-	/**
-	* Specify the Excel header columns here
-	 */
-	
-	private String testCaseID;
 	public String getTestCaseID() {
 		return testCaseID;
 	}
@@ -59,7 +54,25 @@ public class Customer {
 	public boolean isHasVoterId() {
 		return hasVoterId;
 	}
+	public String[] getHobby() {
+		return hobby;
+	}
+	public void setHobby(String[] hobby) {
+		this.hobby = hobby;
+	}
 
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	/**
+	* Specify the Excel header columns here
+	 */
+	
+	private String testCaseID;
 	private String firstName;
 	private String lastName;
 	private  int age ;
@@ -67,7 +80,9 @@ public class Customer {
 	private String mobileNumber;
 	private Date dateOfBirth;
 	private boolean hasVoterId;
-
+	private String[] hobby ;
+	private String country;
+	
 	@Override
 	public String toString() {
 	

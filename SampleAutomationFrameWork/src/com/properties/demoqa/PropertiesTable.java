@@ -47,5 +47,5 @@ public class PropertiesTable {
 			System.out.println(e.getMessage());
 		}
 	}
-
+	
 }

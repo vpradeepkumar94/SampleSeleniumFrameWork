@@ -29,7 +29,7 @@ public class DataTable {
 		  case STRING:   return cell.getStringCellValue();
 		  default:		  return null; 
 		}
-   }
+   } 
 
 	public static Customer readExcelFile(String filePath , String keyName) throws IOException {
 	
@@ -87,6 +87,14 @@ public class DataTable {
 								case 7:
 								      td.setHasVoterId((boolean)getCellType(currentCell));
 									  break;
+								case 8:
+						 			   String data = ( (String) getCellType(currentCell));
+								       String[] hobbies =  data.split(",") ;
+								       td.setHobby(hobbies);
+									  break;
+								case 9:
+								     td.setCountry((String) getCellType(currentCell));
+									 break;
 							} // end of switch block
 						} // end of  updating Pojo Class for each row (if block 0
 					} // end of cell iterator  ( while block )

@@ -14,7 +14,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import com.utils.demoqa.Utils;
 
-  public  class BrowserFactory implements BrowserConsumables  {
+  public  class BrowserFactory extends Base implements BrowserConsumables  {
 
 	 protected  static  WebDriver driver;
 	
