@@ -1,0 +1,6 @@
+Place all the  jar files under this folder
+
+1.Selenium Server Standalone.jar
+log4j.jar
+poji jar
+testng (if applicable)
