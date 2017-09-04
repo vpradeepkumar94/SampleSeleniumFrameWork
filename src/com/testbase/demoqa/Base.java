@@ -15,7 +15,7 @@ public class Base implements CommonConsumable {
 			String value = elements.get(i).getAttribute("value");
 			if (value.equalsIgnoreCase(toSelect)) {
 				elements.get(i).click();
-				break;
+				break; 
 			}
 		}
 	}
@@ -39,7 +39,7 @@ public class Base implements CommonConsumable {
 			select.selectByIndex(0);
 		}
 	}
-
+ 
 	public void selectCheckBox(List<WebElement> elements, String... toSelect) {
 		
 		int size = elements.size();

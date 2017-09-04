@@ -12,3 +12,4 @@ interface CommonConsumable {
 
 	void selectCheckBox(List<WebElement> elements, String... toSelect);
 }
+ 

@@ -29,7 +29,7 @@ public class DataTable {
 		  case STRING:   return cell.getStringCellValue();
 		  default:		  return null; 
 		}
-   }
+   } 
 
 	public static Customer readExcelFile(String filePath , String keyName) throws IOException {
 	

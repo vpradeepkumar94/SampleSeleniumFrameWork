@@ -53,7 +53,7 @@ public class RegistrationPage extends BrowserFactory {
 		
 		super.selectCheckBox(checkbox, customer.getHobby());
 		
-		super.selectFromRadioButton(gender, customer.getGender());
+		super.selectFromRadioButton(gender, customer.getGender()); 
 	}
 
 	public boolean isRegistrationFormOpened() {
