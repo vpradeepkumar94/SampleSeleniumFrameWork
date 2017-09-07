@@ -1,2 +1,0 @@
-Whenever the test case is executed ,a new log file will be created with time stamp
-under this folder
